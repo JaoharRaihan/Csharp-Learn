@@ -31,20 +31,44 @@ namespace Csharp_Learn
             Console.WriteLine("Good"+Raihan);
             Console.WriteLine("Ok");
             */
+            //DATA TYPE EXAMPLE
             int S = 33;
             float A = 33F;
             double R = 33D;
             String inp = "Love";
             Char I = 'U';
-           bool isGreat= true;
-
+            bool isGreat= true;
+            /*
             Console.WriteLine(S);
             Console.WriteLine(A);
             Console.WriteLine(R);
             Console.WriteLine(inp);
             Console.WriteLine(I);
             Console.WriteLine(isGreat);
+            */
+
+
+            //Type Casting
+            //There are two types of type casting
+            //1. Implicit Casting
+            //Char to int to long to float to double
+            //2. Explicit Casting
+            // int x=(int) 3.5;
+            //double x1=(double) 3.5;
+            //Console.WriteLine(x1);
+            // X = 3;
+            // Y = 4;
+            // Z = 'Y';
+            // varr = Convert.ToInt32(3.55);
+            //.ToDouble
+            //.ToString
+            // sx = "Random String";
+
+            Console.WriteLine(X);
+            Console.WriteLine(Y);
+            Console.WriteLine(Z);
             Console.ReadLine();
+            
         }
     }
 }
