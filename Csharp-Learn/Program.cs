@@ -14,7 +14,7 @@ namespace Csharp_Learn
             /*
              * Multiline comment
              */
-            //int Raihan = 33; //Integer Variable
+            //int Raihan = 35; //Integer Variable
             /* Data types in C#;
              * Integer - int Raihan;--  4 bytes
              * Long - long Raihan;-- 8 bytes
@@ -31,13 +31,13 @@ namespace Csharp_Learn
             Console.WriteLine("Good"+Raihan);
             Console.WriteLine("Ok");
             */
-            //DATA TYPE EXAMPLE
-            int S = 33;
-            float A = 33F;
-            double R = 33D;
-            String inp = "Love";
-            Char I = 'U';
-            bool isGreat= true;
+           //DATA TYPE EXAMPLE
+           //int S = 33;
+           // float A = 33F;
+           // double R = 33D;
+           // String inp = "Love";
+           // Char I = 'U';
+           // bool isGreat= true;
             /*
             Console.WriteLine(S);
             Console.WriteLine(A);
@@ -64,9 +64,16 @@ namespace Csharp_Learn
             //.ToString
             // sx = "Random String";
 
-            Console.WriteLine(X);
-            Console.WriteLine(Y);
-            Console.WriteLine(Z);
+            //.WriteLine(X);
+            //.WriteLine(Y);
+            //.WriteLine(Z);
+
+            Console.WriteLine("Enter your name");
+            string name = Console.ReadLine();
+            Console.WriteLine("Hey " + name);
+            Console.WriteLine("Do you like anyone?");
+            string Quention = Console.ReadLine(); 
+            Console.WriteLine("Nice! You deserve someone better than me" +( Convert.ToInt32(Quention) + 4));
             Console.ReadLine();
             
         }
