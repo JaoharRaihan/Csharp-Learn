@@ -67,13 +67,18 @@ namespace Csharp_Learn
             //.WriteLine(X);
             //.WriteLine(Y);
             //.WriteLine(Z);
-
-            Console.WriteLine("Enter your name");
-            string name = Console.ReadLine();
-            Console.WriteLine("Hey " + name);
-            Console.WriteLine("Do you like anyone?");
-            string Quention = Console.ReadLine(); 
-            Console.WriteLine("Nice! You deserve someone better than me" +( Convert.ToInt32(Quention) + 4));
+            //**USER INPUT //
+            //Console.WriteLine("Enter your name");
+           //string name = Console.ReadLine();
+           //Co//nsole.WriteLine("Hey " + name);
+           //Console.WriteLine("Do you like anyone?");
+          //string Quention = Console.ReadLine(); 
+          //Console.WriteLine("Nice! You deserve someone better than me" +( Convert.ToInt32(Quention) + 4));
+          operators in C#
+           1.Arithmatic operations
+           2.Assigment operators
+           3.Logical operators
+           4.Comparison operators
             Console.ReadLine();
             
         }
