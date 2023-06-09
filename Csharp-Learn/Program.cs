@@ -34,9 +34,15 @@ namespace Csharp_Learn
             int S = 33;
             float A = 33F;
             double R = 33D;
+            String inp = "Love";
+            Char I = 'U';
+           // bool = True;
+
             Console.WriteLine(S);
             Console.WriteLine(A);
             Console.WriteLine(R);
+            Console.WriteLine(inp);
+            Console.WriteLine(I);
             Console.ReadLine();
         }
     }
