@@ -31,13 +31,13 @@ namespace Csharp_Learn
             Console.WriteLine("Good"+Raihan);
             Console.WriteLine("Ok");
             */
-           //DATA TYPE EXAMPLE
-           //int S = 33;
-           // float A = 33F;
-           // double R = 33D;
-           // String inp = "Love";
-           // Char I = 'U';
-           // bool isGreat= true;
+            //DATA TYPE EXAMPLE
+            //int S = 33;
+            // float A = 33F;
+            // double R = 33D;
+            // String inp = "Love";
+            // Char I = 'U';
+            // bool isGreat= true;
             /*
             Console.WriteLine(S);
             Console.WriteLine(A);
@@ -69,16 +69,23 @@ namespace Csharp_Learn
             //.WriteLine(Z);
             //**USER INPUT //
             //Console.WriteLine("Enter your name");
-           //string name = Console.ReadLine();
-           //Co//nsole.WriteLine("Hey " + name);
-           //Console.WriteLine("Do you like anyone?");
-          //string Quention = Console.ReadLine(); 
-          //Console.WriteLine("Nice! You deserve someone better than me" +( Convert.ToInt32(Quention) + 4));
-          operators in C#
-           1.Arithmatic operations
-           2.Assigment operators
-           3.Logical operators
-           4.Comparison operators
+            //string name = Console.ReadLine();
+            //Co//nsole.WriteLine("Hey " + name);
+            //Console.WriteLine("Do you like anyone?");
+            //string Quention = Console.ReadLine(); 
+            //Console.WriteLine("Nice! You deserve someone better than me" +( Convert.ToInt32(Quention) + 4));
+            /*operators in C#
+             1.Arithmatic operations
+             2.Assigment operators
+             3.Logical operators
+             4.Comparison operators
+            */
+            int s = 33;
+            int r = 35;
+            Console.WriteLine("The value of s + r is:"+(s+r));
+            Console.WriteLine("The value of s - r is:" +(s-r));
+            Console.WriteLine("The value of s * r is:" +(s*r));
+            Console.WriteLine("The value of s / r is:" +(s/r));
             Console.ReadLine();
             
         }
