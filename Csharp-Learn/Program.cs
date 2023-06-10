@@ -108,13 +108,32 @@ namespace Csharp_Learn
             //Console.WriteLine(!false); Console.WriteLine(!true); 
 
             //4.Comparison operators
-            Console.WriteLine(324 > 555);
-            Console.WriteLine(324 <= 555);
-            Console.WriteLine(324 >= 555);
-            Console.WriteLine(324 != 555);
+            //Console.WriteLine(324 > 555);
+            //Console.WriteLine(324 <= 555);
+            //Console.WriteLine(324 >= 555);
+            //Console.WriteLine(324 != 555);
+
+
+            //MATH
+
+            int s = Math.Max(193, 33);
+            int a = Math.Min(193, 33);
+            double r = Math.Sqrt(33);
+            double R = Math.Abs(35);
+            Console.WriteLine(s);
+            Console.WriteLine(a);
+            Console.WriteLine(r);
+            Console.WriteLine(R);
+            string hello = "Hello world this is Raihan";
+            Console.WriteLine(hello.Length);
+            Console.WriteLine(hello.ToUpper());
+            Console.WriteLine(hello.ToLower());
+            Console.WriteLine(hello + "You are Nice!");
+            Console.WriteLine(String.Concat(hello , "You are Nice!"));
 
             Console.ReadLine();
-            
+
+
         }
     }
 }
