@@ -98,13 +98,21 @@ namespace Csharp_Learn
             // Console.WriteLine(R);
 
             //Logical Operators 
-            Console.WriteLine(true && false);
-            Console.WriteLine(true && true);
-            Console.WriteLine(false && false);
+            //Console.WriteLine(true && false);
+            //Console.WriteLine(true && true);
+            //Console.WriteLine(false && false);
+            //
+            //Console.WriteLine(false || true);
+            //Console.WriteLine(true || true);
+            //Console.WriteLine(false || false);
+            //Console.WriteLine(!false); Console.WriteLine(!true); 
 
-            Console.WriteLine(false || true);
-            Console.WriteLine(true || true);
-            Console.WriteLine(false || false);
+            //4.Comparison operators
+            Console.WriteLine(324 > 555);
+            Console.WriteLine(324 <= 555);
+            Console.WriteLine(324 >= 555);
+            Console.WriteLine(324 != 555);
+
             Console.ReadLine();
             
         }
