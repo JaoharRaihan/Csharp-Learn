@@ -89,13 +89,22 @@ namespace Csharp_Learn
             //Console.WriteLine("The value of s / r is:" +(s/r));
 
             //2.Assigment operators
-            int s = 33;
-            int R = s;
-            R -= 33;
-            R+=33;
-            R *= 33;
-            R /= 33;
-            Console.WriteLine(R);
+            //int s = 33;
+            //int R = s;
+            //R -= 33;
+            //R+=33;
+            //R *= 33;
+            //R /= 33;
+            // Console.WriteLine(R);
+
+            //Logical Operators 
+            Console.WriteLine(true && false);
+            Console.WriteLine(true && true);
+            Console.WriteLine(false && false);
+
+            Console.WriteLine(false || true);
+            Console.WriteLine(true || true);
+            Console.WriteLine(false || false);
             Console.ReadLine();
             
         }
