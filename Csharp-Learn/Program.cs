@@ -80,12 +80,22 @@ namespace Csharp_Learn
              3.Logical operators
              4.Comparison operators
             */
+            //1.Arithmatic operations
+            //int s = 33;
+            //int r = 35;
+            //Console.WriteLine("The value of s + r is:"+(s+r));
+            //Console.WriteLine("The value of s - r is:" +(s-r));
+            //Console.WriteLine("The value of s * r is:" +(s*r));
+            //Console.WriteLine("The value of s / r is:" +(s/r));
+
+            //2.Assigment operators
             int s = 33;
-            int r = 35;
-            Console.WriteLine("The value of s + r is:"+(s+r));
-            Console.WriteLine("The value of s - r is:" +(s-r));
-            Console.WriteLine("The value of s * r is:" +(s*r));
-            Console.WriteLine("The value of s / r is:" +(s/r));
+            int R = s;
+            R -= 33;
+            R+=33;
+            R *= 33;
+            R /= 33;
+            Console.WriteLine(R);
             Console.ReadLine();
             
         }
