@@ -133,23 +133,24 @@ namespace Csharp_Learn
 
 
             //String
-            /*
+            
             Console.WriteLine("Enter her name");
             String name = Console.ReadLine();
             Console.WriteLine("ONE WORD TO DEDICATE HER");
             string Fuckingthought = Console.ReadLine();
             Console.WriteLine($"Her name is {name}.I wish she will get {Fuckingthought} ");
-            */
+            
 
 
 
             //String hello = "Hello world this is Raihan";
             //String hello = "Hello \"world \"this is Raihan"; //--   " W "
-            String hello = "Hello world \n this is Raihan";    //--   NEW LINE
+            //String hello = "Hello world \n this is Raihan";    //--   NEW LINE
+            //String hello = "Hello world \t this is Raihan";    //--   FOR    SPACE
             //Console.WriteLine(hello[1]);
-            Console.WriteLine(hello.IndexOf("is"));
-            Console.WriteLine(hello.Substring(3));
-            Console.WriteLine(hello);
+            //Console.WriteLine(hello.IndexOf("is"));
+            //Console.WriteLine(hello.Substring(3));
+            //Console.WriteLine(hello);
 
             Console.ReadLine();
 
