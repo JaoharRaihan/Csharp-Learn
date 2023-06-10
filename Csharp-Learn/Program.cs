@@ -116,20 +116,40 @@ namespace Csharp_Learn
 
             //MATH
 
-            int s = Math.Max(193, 33);
-            int a = Math.Min(193, 33);
-            double r = Math.Sqrt(33);
-            double R = Math.Abs(35);
-            Console.WriteLine(s);
-            Console.WriteLine(a);
-            Console.WriteLine(r);
-            Console.WriteLine(R);
-            string hello = "Hello world this is Raihan";
-            Console.WriteLine(hello.Length);
-            Console.WriteLine(hello.ToUpper());
-            Console.WriteLine(hello.ToLower());
-            Console.WriteLine(hello + "You are Nice!");
-            Console.WriteLine(String.Concat(hello , "You are Nice!"));
+            //int s = Math.Max(193, 33);
+            //int a = Math.Min(193, 33);
+            //double r = Math.Sqrt(33);
+            //double R = Math.Abs(35);
+            //Console.WriteLine(s);
+            //Console.WriteLine(a);
+            //Console.WriteLine(r);
+            //Console.WriteLine(R);
+            //string hello = "Hello world this is Raihan";
+            //Console.WriteLine(hello.Length);
+            //Console.WriteLine(hello.ToUpper());
+            //Console.WriteLine(hello.ToLower());
+            //Console.WriteLine(hello + "You are Nice!");
+            //Console.WriteLine(String.Concat(hello , "You are Nice!"));
+
+
+            //String
+            /*
+            Console.WriteLine("Enter her name");
+            String name = Console.ReadLine();
+            Console.WriteLine("ONE WORD TO DEDICATE HER");
+            string Fuckingthought = Console.ReadLine();
+            Console.WriteLine($"Her name is {name}.I wish she will get {Fuckingthought} ");
+            */
+
+
+
+            //String hello = "Hello world this is Raihan";
+            //String hello = "Hello \"world \"this is Raihan"; //--   " W "
+            String hello = "Hello world \n this is Raihan";    //--   NEW LINE
+            //Console.WriteLine(hello[1]);
+            Console.WriteLine(hello.IndexOf("is"));
+            Console.WriteLine(hello.Substring(3));
+            Console.WriteLine(hello);
 
             Console.ReadLine();
 
