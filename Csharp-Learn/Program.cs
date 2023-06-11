@@ -37,7 +37,7 @@ namespace Csharp_Learn
             // double R = 33D;
             // String inp = "Love";
             // Char I = 'U';
-            // bool isGreat= true;
+            // bool isGreat= true!;
             /*
             Console.WriteLine(S);
             Console.WriteLine(A);
@@ -134,7 +134,7 @@ namespace Csharp_Learn
 
             //String
             
-            Console.WriteLine("Enter her name");
+            Console.WriteLine("Enter her name you loved");
             String name = Console.ReadLine();
             Console.WriteLine("ONE WORD TO DEDICATE HER");
             string Fuckingthought = Console.ReadLine();
