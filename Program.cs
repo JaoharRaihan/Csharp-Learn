@@ -139,7 +139,7 @@ namespace Csharp_Learn
             Console.WriteLine("ONE WORD TO DEDICATE HER");
             string Fuckingthought = Console.ReadLine();
             Console.WriteLine($"Her name is {name}.I wish she will get {Fuckingthought} ");
-            
+
 
 
 
@@ -151,6 +151,30 @@ namespace Csharp_Learn
             //Console.WriteLine(hello.IndexOf("is"));
             //Console.WriteLine(hello.Substring(3));
             //Console.WriteLine(hello);
+
+            //Comparison operators
+            /*
+                        Console.WriteLine("Enter Your age");
+                        string agestr = Console.ReadLine();
+                        int age=Convert.ToInt32(agestr); 
+                        bool alwaysenjoy = true;
+                        if (age < 2 || alwaysenjoy)
+                        {
+                            Console.WriteLine("You are in a good life");
+                        }
+                        else if (age < 18 || alwaysenjoy)
+                        {
+                            Console.WriteLine("Please enjoy and love yourself");
+                        }
+                        else if (age < 20 || alwaysenjoy)
+                        {
+                            Console.WriteLine("Learn any skill");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Take a big risk");
+                        }
+            */
 
             Console.ReadLine();
 
