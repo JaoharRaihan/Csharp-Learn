@@ -176,6 +176,21 @@ namespace Csharp_Learn
                         }
             */
 
+            //Loops
+
+            int age = 78;
+
+            switch (age)
+            {
+                case 18: Console.WriteLine("Fllow a football team");
+                    break;
+
+                case 20: Console.WriteLine("Make a study youtube chanel always watch study video on this account");
+                    break;
+                default: Console.WriteLine("Enjoy");
+                    break;
+            }
+
             Console.ReadLine();
 
 

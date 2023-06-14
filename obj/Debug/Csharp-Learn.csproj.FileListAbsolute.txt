@@ -1,0 +1,8 @@
+C:\Users\jaoha\OneDrive\Documents\GitHub\Csharp-learn\bin\Debug\Csharp-Learn.exe.config
+C:\Users\jaoha\OneDrive\Documents\GitHub\Csharp-learn\bin\Debug\Csharp-Learn.exe
+C:\Users\jaoha\OneDrive\Documents\GitHub\Csharp-learn\bin\Debug\Csharp-Learn.pdb
+C:\Users\jaoha\OneDrive\Documents\GitHub\Csharp-learn\obj\Debug\Csharp-Learn.csproj.AssemblyReference.cache
+C:\Users\jaoha\OneDrive\Documents\GitHub\Csharp-learn\obj\Debug\Csharp-Learn.csproj.SuggestedBindingRedirects.cache
+C:\Users\jaoha\OneDrive\Documents\GitHub\Csharp-learn\obj\Debug\Csharp-Learn.csproj.CoreCompileInputs.cache
+C:\Users\jaoha\OneDrive\Documents\GitHub\Csharp-learn\obj\Debug\Csharp-Learn.exe
+C:\Users\jaoha\OneDrive\Documents\GitHub\Csharp-learn\obj\Debug\Csharp-Learn.pdb
