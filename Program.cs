@@ -176,9 +176,9 @@ namespace Csharp_Learn
                         }
             */
 
-            //Loops
-
-            int age = 78;
+            //Switch case
+            /*
+            int age = 20;
 
             switch (age)
             {
@@ -190,8 +190,51 @@ namespace Csharp_Learn
                 default: Console.WriteLine("Enjoy");
                     break;
             }
+            */
 
-            Console.ReadLine();
+            //Loops in Csharp
+            /*
+            Console.WriteLine("1");
+            Console.WriteLine("2");
+            Console.WriteLine("3");
+            Console.WriteLine("4");
+            Console.WriteLine("5");
+            */
+            //Better Alternative-Lopps
+            //While Lopps
+            /*
+            int i = 0;
+            while (i<5000)
+            {
+                Console.WriteLine(i+1);
+                i++;
+            }
+            */
+            //Do Lopps
+            /*
+            int i = 0;
+            do
+            {
+                Console.WriteLine(i + 1);
+                i++;
+            } while (i <5000);
+            */
+            //For Lopps
+            
+            for (int i = 0; i<5; i++)
+            {
+
+                if (i == 0)
+                {
+                    continue;
+                }
+                Console.WriteLine(i+1);
+            }
+            
+            // Break and continue
+            //Break -leave this loop forever
+            //continue : Leave this particular iteration of the loop
+                Console.ReadLine();
 
 
         }
