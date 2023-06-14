@@ -133,13 +133,13 @@ namespace Csharp_Learn
 
 
             //String
-            
+            /*
             Console.WriteLine("Enter her name you loved");
             String name = Console.ReadLine();
             Console.WriteLine("ONE WORD TO DEDICATE HER");
             string Fuckingthought = Console.ReadLine();
             Console.WriteLine($"Her name is {name}.I wish she will get {Fuckingthought} ");
-
+            */
 
 
 
