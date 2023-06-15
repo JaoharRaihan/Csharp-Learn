@@ -6,8 +6,21 @@ using System.Threading.Tasks;
 
 namespace Csharp_Learn
 {
-    internal class Program
+    class Program
     {
+        static void Greet(string name)
+        {
+            Console.WriteLine("Good Morning" + name);
+        }
+        static float Average(int a, int b, int c)
+        {
+            float sum=a+b+c;
+            return sum/3;
+        }
+        static float Average(int a, int b)
+        {
+            return (a + b) / 2;
+        }
         static void Main(string[] args)
         {
             // Singleline Comment
@@ -220,7 +233,7 @@ namespace Csharp_Learn
             } while (i <5000);
             */
             //For Lopps
-            
+            /*
             for (int i = 0; i<5; i++)
             {
 
@@ -230,10 +243,20 @@ namespace Csharp_Learn
                 }
                 Console.WriteLine(i+1);
             }
+            */
             
             // Break and continue
             //Break -leave this loop forever
             //continue : Leave this particular iteration of the loop
+            Greet("Jaohar");
+            Greet("Raihan");
+            Console.WriteLine(Average(2, 6, 8));
+            float temp =Average(9, 3, 0);
+            Console.WriteLine(temp);
+            Console.WriteLine(Average(3, 3, 3));
+            Console.WriteLine(Average(3, 3));
+
+
                 Console.ReadLine();
 
 
