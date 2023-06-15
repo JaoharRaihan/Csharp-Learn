@@ -248,6 +248,9 @@ namespace Csharp_Learn
             // Break and continue
             //Break -leave this loop forever
             //continue : Leave this particular iteration of the loop
+
+            //Methods 
+            /*
             Greet("Jaohar");
             Greet("Raihan");
             Console.WriteLine(Average(2, 6, 8));
@@ -255,6 +258,7 @@ namespace Csharp_Learn
             Console.WriteLine(temp);
             Console.WriteLine(Average(3, 3, 3));
             Console.WriteLine(Average(3, 3));
+            */
 
 
                 Console.ReadLine();
